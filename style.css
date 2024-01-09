@@ -1,4 +1,3 @@
-
 *{
     margin:0;
     padding:0;
@@ -7,6 +6,7 @@
 }
 body{
     background:url('../img/b_coffee.jpg');
+    background-repeat: no-repeat;
     display:flex;
     justify-content: center;
 }
@@ -16,13 +16,10 @@ body{
     justify-content:center;
     align-items: center;
     flex-direction: column;
-
 }
-
 .header{
     border-bottom:1px dashed black;
 }
-
 .bar,.nav_bar{
     display:flex;
     justify-content:space-around;
@@ -31,17 +28,14 @@ body{
     display:block;
     margin:10px;
 }
-
 .footer{
     width:900px;
     margin-top:50px;
     display:flex;
     justify-content:space-between;
 }
-
 .main{
     overflow-x:hidden;
-
 }
 .parent{
     width:100%;
@@ -57,19 +51,18 @@ body{
 .text{
     color:green;
     text-decoration: underline;
-
 }
 
 .aside{
     width:100%;
     display:flex;
     justify-content:center;
-
 }
 
 .childs{
     width:300px;
 }
+
 .childs > ul,li{
     margin-top:10px;
 }
@@ -81,16 +74,12 @@ body{
     text-decoration:none;
     border-left:2px solid;
     padding:2px;
-
 }
-
 
 #main_index_html{
     width:70%;
     padding:50px;
-
 }
-
 
 .content_index_html{
     width:100%;
@@ -126,19 +115,14 @@ body{
     margin-top:10px;
 }
 
-
 .items{
     width:40%;
 }
-
 
 .about_parent{
     display:flex;
     padding-top:20px;
 }
-
-
-
 
 .bottom_space{
     padding-bottom:10px;
@@ -146,7 +130,6 @@ body{
 .about_aside > .items > p{
     padding-top:10px;
 }
-
 
 .content_portfolio{
     display:flex;
@@ -178,7 +161,6 @@ body{
     padding-left:10px;
 }
 
-
 .contact_info> h3,b{
     font-size:30px;
 }
@@ -195,7 +177,6 @@ body{
 .contact_info,.contact_img{
     width:600px;
     margin-top:20px;
-
 }
 .contact_info > p{
     padding:10px;
